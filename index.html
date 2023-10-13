@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Thumbnail Capture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="iphone-x-frame">
+        <div class="background-image"></div>
+        <div class="notch"></div>
+        <div class="music-player">
+            <div class="card-container">
+                <div class="card">
+                    <div class="thumbnail-container">
+                        <img src="music-song.gif" alt="Album Cover">
+                        <canvas id="thumbnail-canvas"></canvas>
+                        <div class="music-controls">
+                            <audio id="audio" controls>
+                                <source src="Aadat - Kalyug 128 Kbps.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
