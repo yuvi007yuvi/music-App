@@ -123,5 +123,11 @@ canvas {
 .thumbnail-container img:hover {
     transform: scale(1.05); /* Slightly scale up on hover */
 }
-
+ footer {
+     position: absolute;
+     bottom: 10px;
+     text-align: center;
+     color: aliceblue;
+     width: 100%;
+ }
 
